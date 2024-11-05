@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2024-10-27 09:33+0000\n"
-"PO-Revision-Date: 2024-11-04 11:44\n"
+"POT-Creation-Date: 2024-11-03 09:33+0000\n"
+"PO-Revision-Date: 2024-11-05 11:49\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -1645,7 +1645,7 @@ msgstr "Asigne puntos a usuarios asignados"
 #. Option for the 'Sign ups' (Select) field in DocType 'Social Login Key'
 #: frappe/core/doctype/user_permission/user_permission.json
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
-#: frappe/templates/includes/oauth_confirmation.html:15
+#: frappe/templates/includes/oauth_confirmation.html:16
 msgid "Allow"
 msgstr "Permitir"
 
@@ -2045,7 +2045,7 @@ msgstr "Se produjo un error al configurar los valores predeterminados de la sesi
 msgid "An icon file with .ico extension. Should be 16 x 16 px. Generated using a favicon generator. [favicon-generator.org]"
 msgstr "Un archivo de icono con .ico extensión. Debería ser de 16 x 16 píxeles. Generado usando un generador de favicon. [favicon-generator.org]"
 
-#: frappe/templates/includes/oauth_confirmation.html:35
+#: frappe/templates/includes/oauth_confirmation.html:38
 msgid "An unexpected error occurred while authorizing {}."
 msgstr "Se produjo un error inesperado al autorizar {}."
 
@@ -2786,7 +2786,7 @@ msgstr "Código de Autorización"
 msgid "Authorization URI"
 msgstr "URI de Autorización"
 
-#: frappe/templates/includes/oauth_confirmation.html:32
+#: frappe/templates/includes/oauth_confirmation.html:35
 msgid "Authorization error for {}."
 msgstr "Error de autorización para {}."
 
@@ -4118,7 +4118,7 @@ msgstr ""
 msgid "Cannot create a {0} against a child document: {1}"
 msgstr "No se puede crear un {0} en contra de un documento secundario: {1}"
 
-#: frappe/desk/doctype/workspace/workspace.py:264
+#: frappe/desk/doctype/workspace/workspace.py:268
 msgid "Cannot create private workspace of other users"
 msgstr "No se puede crear un Área de Trabajo privado para otros usuarios"
 
@@ -4218,7 +4218,7 @@ msgstr "No se pueden asignar varias impresoras a un único formato de impresión
 msgid "Cannot link cancelled document: {0}"
 msgstr "No se puede vincular al documento anulado: {0}"
 
-#: frappe/model/mapper.py:192
+#: frappe/model/mapper.py:181
 msgid "Cannot map because following condition fails:"
 msgstr "No se puede mapear porque falla la siguiente condición:"
 
@@ -7001,7 +7001,7 @@ msgstr "Estado del envío"
 
 #. Option for the 'Sign ups' (Select) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
-#: frappe/templates/includes/oauth_confirmation.html:14
+#: frappe/templates/includes/oauth_confirmation.html:17
 msgid "Deny"
 msgstr "Denegar"
 
@@ -9323,10 +9323,6 @@ msgstr "Error: Faltan datos en la tabla {0}"
 #: frappe/model/base_document.py:762
 msgid "Error: Value missing for {0}: {1}"
 msgstr "Error: falta el valor para {0}: {1}"
-
-#: frappe/www/error.html:36
-msgid "Error: {0}"
-msgstr "Error: {0}"
 
 #: frappe/model/base_document.py:756
 msgid "Error: {0} Row #{1}: Value missing for: {2}"
@@ -12031,7 +12027,7 @@ msgstr "Sugerencia: Incluya símbolos, números y letras mayúsculas en la contr
 #: frappe/website/doctype/website_settings/website_settings.json
 #: frappe/website/web_template/primary_navbar/primary_navbar.html:9
 #: frappe/www/contact.py:22 frappe/www/login.html:151 frappe/www/me.html:76
-#: frappe/www/message.html:27
+#: frappe/www/message.html:29
 msgid "Home"
 msgstr "Inicio"
 
@@ -13328,7 +13324,7 @@ msgstr "Filtro no válido: {0}"
 msgid "Invalid json added in the custom options: {0}"
 msgstr "JSON no válido agregado en las opciones personalizadas: {0}"
 
-#: frappe/model/naming.py:481
+#: frappe/model/naming.py:480
 msgid "Invalid name type (integer) for varchar name column"
 msgstr ""
 
@@ -13344,7 +13340,7 @@ msgstr "Contenido no válido o dañado para importar"
 msgid "Invalid redirect regex in row #{}: {}"
 msgstr "Regex de redirección no válida en la fila #{}: {}"
 
-#: frappe/app.py:336
+#: frappe/app.py:337
 msgid "Invalid request arguments"
 msgstr "Argumentos de solicitud inválidos"
 
@@ -15492,7 +15488,7 @@ msgstr "La fusión sólo es posible de Grupo -a- Grupo o de Nodo -a- Nodo en la 
 #: frappe/public/js/frappe/ui/messages.js:175
 #: frappe/public/js/frappe/views/communication.js:114
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
-#: frappe/www/message.html:3 frappe/www/message.html:16
+#: frappe/www/message.html:3
 msgid "Message"
 msgstr "Mensaje"
 
@@ -16162,7 +16158,7 @@ msgstr "Nombre (Doc Name)"
 msgid "Name already taken, please set a new name"
 msgstr "Nombre ya usado, por favor establezca un nuevo nombre"
 
-#: frappe/model/naming.py:495
+#: frappe/model/naming.py:494
 msgid "Name cannot contain special characters like {0}"
 msgstr "El nombre no puede contener caracteres especiales como {0}"
 
@@ -16174,7 +16170,7 @@ msgstr "Nombre del tipo de documento (DocType) al que quieres que se vincule est
 msgid "Name of the new Print Format"
 msgstr "Nombre del nuevo formato de impresión"
 
-#: frappe/model/naming.py:490
+#: frappe/model/naming.py:489
 msgid "Name of {0} cannot be {1}"
 msgstr "Nombre de {0} no puede ser {1}"
 
@@ -16274,7 +16270,7 @@ msgstr ""
 msgid "Navigation Settings"
 msgstr "Configuración de Navegación"
 
-#: frappe/desk/doctype/workspace/workspace.py:311
+#: frappe/desk/doctype/workspace/workspace.py:315
 msgid "Need Workspace Manager role to edit private workspace of other users"
 msgstr "Necesita el rol de Administrador del Área de Trabajo para editar el área de trabajo privada de otros usuarios"
 
@@ -16740,7 +16736,7 @@ msgstr "Sin Etiqueta"
 msgid "No Letterhead"
 msgstr "Sin Membrete"
 
-#: frappe/model/naming.py:472
+#: frappe/model/naming.py:471
 msgid "No Name Specified for {0}"
 msgstr "Sin nombre especificado para {0}"
 
@@ -17077,7 +17073,7 @@ msgstr "No son Descendientes de"
 msgid "Not Equals"
 msgstr "No es igual"
 
-#: frappe/app.py:393 frappe/www/404.html:3
+#: frappe/app.py:388 frappe/www/404.html:3
 msgid "Not Found"
 msgstr "No encontrado"
 
@@ -17103,7 +17099,7 @@ msgstr "No está vinculado a ningún registro"
 msgid "Not Nullable"
 msgstr "No nulo"
 
-#: frappe/__init__.py:1013 frappe/app.py:384 frappe/desk/calendar.py:26
+#: frappe/__init__.py:1013 frappe/app.py:381 frappe/desk/calendar.py:26
 #: frappe/geo/utils.py:97 frappe/public/js/frappe/web_form/webform_script.js:15
 #: frappe/website/doctype/web_form/web_form.py:605
 #: frappe/website/page_renderers/not_permitted_page.py:20
@@ -17562,10 +17558,6 @@ msgstr "Ámbito OAuth"
 
 #: frappe/email/doctype/email_account/email_account.js:221
 msgid "OAuth has been enabled but not authorised. Please use \"Authorise API Access\" button to do the same."
-msgstr ""
-
-#: frappe/templates/includes/oauth_confirmation.html:39
-msgid "OK"
 msgstr ""
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
@@ -19268,7 +19260,7 @@ msgstr "Por favor, defina los filtros"
 msgid "Please set filters value in Report Filter table."
 msgstr "Defina el valor de los filtros en la tabla Filtro de informes."
 
-#: frappe/model/naming.py:565
+#: frappe/model/naming.py:564
 msgid "Please set the document name"
 msgstr "Por favor, establezca el nombre del documento"
 
@@ -23403,7 +23395,8 @@ msgstr "Secuencia {0} ya utilizada en {1}"
 msgid "Server Action"
 msgstr "Acción del servidor"
 
-#: frappe/public/js/frappe/request.js:607
+#: frappe/app.py:397 frappe/public/js/frappe/request.js:607
+#: frappe/www/error.html:36 frappe/www/error.py:18
 msgid "Server Error"
 msgstr "Error del Servidor"
 
@@ -23465,7 +23458,7 @@ msgstr "Valores predeterminados de sesión"
 msgid "Session Defaults Saved"
 msgstr "Valores predeterminados de sesión guardados"
 
-#: frappe/app.py:375
+#: frappe/app.py:374
 msgid "Session Expired"
 msgstr "Sesión expirada"
 
@@ -24831,7 +24824,7 @@ msgstr "Estado actualizado"
 msgid "Status Updated. The email will be picked up in the next scheduled run."
 msgstr ""
 
-#: frappe/www/message.html:22
+#: frappe/www/message.html:24
 msgid "Status: {0}"
 msgstr "Estado: {0}"
 
@@ -26035,7 +26028,7 @@ msgstr ""
 msgid "The reset password link has either been used before or is invalid"
 msgstr ""
 
-#: frappe/app.py:394 frappe/public/js/frappe/request.js:148
+#: frappe/app.py:389 frappe/public/js/frappe/request.js:148
 msgid "The resource you are looking for is not available"
 msgstr "El recurso que está buscando no está disponible"
 
@@ -26155,7 +26148,7 @@ msgstr "Ya hay {0} con los mismos filtros en la cola:"
 msgid "There must be atleast one permission rule."
 msgstr "Debe haber al menos una regla de permiso."
 
-#: frappe/www/error.py:16
+#: frappe/www/error.py:20
 msgid "There was an error building this page"
 msgstr "Se produjo un error al crear esta página."
 
@@ -26175,7 +26168,7 @@ msgstr "Hubo errores al crear el documento. Inténtalo de nuevo."
 msgid "There were errors while sending email. Please try again."
 msgstr "Ha ocurrido un error al enviar el correo electrónico. Por favor, inténtelo de nuevo."
 
-#: frappe/model/naming.py:485
+#: frappe/model/naming.py:484
 msgid "There were some errors setting the name, please contact the administrator"
 msgstr "Existen algunos errores al configurar el nombre, por favor póngase en contacto con el administrador"
 
@@ -27512,9 +27505,9 @@ msgstr "Incapaz de escribir el formato de archivo para {0}"
 msgid "Unassign Condition"
 msgstr "Desasignar condición"
 
-#: frappe/www/error.py:15
-msgid "Uncaught Server Exception"
-msgstr "Excepción de servidor no detectada"
+#: frappe/app.py:397
+msgid "Uncaught Exception"
+msgstr ""
 
 #: frappe/public/js/frappe/form/toolbar.js:95
 msgid "Unchanged"
@@ -28274,7 +28267,7 @@ msgstr "El usuario {0} no tiene acceso a este documento"
 msgid "User {0} does not have doctype access via role permission for document {1}"
 msgstr "El usuario {0} no tiene acceso a doctype a través del permiso de rol para el documento {1}"
 
-#: frappe/desk/doctype/workspace/workspace.py:267
+#: frappe/desk/doctype/workspace/workspace.py:271
 msgid "User {0} does not have the permission to create a Workspace."
 msgstr ""
 
@@ -29816,7 +29809,7 @@ msgstr ""
 msgid "You do not have enough permissions to access this resource. Please contact your manager to get access."
 msgstr "Usted no tiene permisos suficientes para acceder a este apartado. Por favor, póngase en contacto con su administrador para obtener acceso."
 
-#: frappe/app.py:385
+#: frappe/app.py:382
 msgid "You do not have enough permissions to complete the action"
 msgstr "Usted no tiene suficientes permisos para completar la acción"
 
@@ -29933,6 +29926,10 @@ msgstr ""
 #: frappe/website/doctype/web_form/web_form.py:505
 msgid "You must login to submit this form"
 msgstr "Debes iniciar sesión para enviar este formulario"
+
+#: frappe/desk/doctype/workspace/workspace.py:123
+msgid "You need to be Workspace Manager to delete a public workspace."
+msgstr ""
 
 #: frappe/desk/doctype/workspace/workspace.py:76
 msgid "You need to be Workspace Manager to edit this document"
@@ -30104,7 +30101,7 @@ msgstr "El nombre de la organización y dirección para el pie de página del co
 msgid "Your query has been received. We will reply back shortly. If you have any additional information, please reply to this mail."
 msgstr "Su consulta ha sido recibida. Responderemos a la mayor brevedad posible. Si usted tiene alguna información adicional, puede responder a este correo."
 
-#: frappe/app.py:376
+#: frappe/app.py:375
 msgid "Your session has expired, please login again to continue."
 msgstr "Tu sesión ha caducado, vuelve a iniciar sesión para continuar."
 
