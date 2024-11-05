@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-10-08 17:02+0000\n"
-"PO-Revision-Date: 2024-11-01 10:28\n"
+"PO-Revision-Date: 2024-11-05 11:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -8042,7 +8042,7 @@ msgstr "Verilerinizi İndirin"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:47
 msgid "Dr"
-msgstr "Borç"
+msgstr "Dr"
 
 #: frappe/public/js/frappe/model/indicator.js:73
 #: frappe/public/js/frappe/ui/filters/filter.js:498
@@ -8295,7 +8295,7 @@ msgstr "Filtreleri Düzenle"
 
 #: frappe/public/js/print_format_builder/PrintFormat.vue:29
 msgid "Edit Footer"
-msgstr ""
+msgstr "Altbilgiyi Düzenle"
 
 #: frappe/printing/doctype/print_format/print_format.js:28
 msgid "Edit Format"
@@ -9660,7 +9660,7 @@ msgstr "Serinin önizlemesi oluşturulamadı"
 
 #: frappe/handler.py:76
 msgid "Failed to get method for command {0} with {1}"
-msgstr ""
+msgstr "{1} ile {0} komutu için geçerli method alınamadı"
 
 #: frappe/api/v2.py:48
 msgid "Failed to get method {0} with {1}"
@@ -19024,12 +19024,12 @@ msgstr ""
 #. Label of a Check field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
 msgid "Preferred Billing Address"
-msgstr "Tercih Edilen Fatura Adresi"
+msgstr "Varsayılan Fatura Adresi"
 
 #. Label of a Check field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
 msgid "Preferred Shipping Address"
-msgstr "Tercih Edilen Teslimat Adresi"
+msgstr "Varsayılan Teslimat Adresi"
 
 #. Label of a Data field in DocType 'Document Naming Rule'
 #. Label of a Autocomplete field in DocType 'Document Naming Settings'
