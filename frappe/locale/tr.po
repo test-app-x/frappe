@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-03 09:33+0000\n"
-"PO-Revision-Date: 2024-11-05 11:49\n"
+"PO-Revision-Date: 2024-11-06 12:14\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -11955,7 +11955,7 @@ msgstr "Gizle"
 #. Label of the hide_block (Check) field in DocType 'Web Page Block'
 #: frappe/website/doctype/web_page_block/web_page_block.json
 msgid "Hide Block"
-msgstr ""
+msgstr "Bloğu Gizle"
 
 #. Label of the hide_border (Check) field in DocType 'DocField'
 #. Label of the hide_border (Check) field in DocType 'Custom Field'
@@ -11969,7 +11969,7 @@ msgstr "Kenarları Gizle"
 #. Label of the hide_buttons (Check) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
 msgid "Hide Buttons"
-msgstr ""
+msgstr "Butonları Gizle"
 
 #. Label of the hide_cta (Check) field in DocType 'Blog Post'
 #: frappe/website/doctype/blog_post/blog_post.json
@@ -26697,7 +26697,7 @@ msgstr "Zaman cetveli"
 #. Label of the timeline_doctype (Link) field in DocType 'Activity Log'
 #: frappe/core/doctype/activity_log/activity_log.json
 msgid "Timeline DocType"
-msgstr ""
+msgstr "DocType Zaman Akışı"
 
 #. Label of the timeline_field (Data) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -30638,7 +30638,7 @@ msgstr "şimdi"
 
 #: frappe/public/js/frappe/form/grid_pagination.js:116
 msgid "of"
-msgstr "ile ilgili"
+msgstr "/"
 
 #. Label of the old_parent (Data) field in DocType 'File'
 #: frappe/core/doctype/file/file.json
@@ -31662,7 +31662,7 @@ msgstr "{0} Güncellendi"
 
 #: frappe/public/js/frappe/form/controls/multiselect_list.js:182
 msgid "{0} values selected"
-msgstr "{0} değerler seçildi"
+msgstr "{0} Öğe Seçildi"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:185
 msgid "{0} viewed this"
