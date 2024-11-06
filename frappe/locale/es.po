@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-10-08 17:02+0000\n"
-"PO-Revision-Date: 2024-11-04 11:43\n"
+"PO-Revision-Date: 2024-11-06 12:14\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -1248,7 +1248,7 @@ msgstr "Agregar una fila al final"
 
 #: frappe/public/js/frappe/form/form.js:200
 msgid "Add a row at the top"
-msgstr ""
+msgstr "Añadir una fila en la parte superior"
 
 #: frappe/public/js/frappe/form/form.js:196
 msgid "Add a row below the current row"
@@ -2174,7 +2174,7 @@ msgstr "Aplicado en"
 
 #: frappe/public/js/form_builder/components/Field.vue:103
 msgid "Apply"
-msgstr ""
+msgstr "Postularse"
 
 #: frappe/public/js/frappe/list/list_view.js:1880
 msgctxt "Button in list view actions menu"
@@ -2300,7 +2300,7 @@ msgstr "¿Está seguro de que desea eliminar la sección? Todas las columnas y l
 #: frappe/public/js/form_builder/components/Tabs.vue:65
 msgctxt "Confirmation dialog message"
 msgid "Are you sure you want to delete the tab? All the sections along with fields in the tab will be moved to the previous tab."
-msgstr ""
+msgstr "¿Está seguro de que desea eliminar la sección? Todas las columnas y los campos de la sección se moverán a la sección anterior."
 
 #: frappe/public/js/frappe/web_form/web_form.js:185
 msgid "Are you sure you want to discard the changes?"
@@ -2570,7 +2570,7 @@ msgstr "Adjuntar Impresión"
 
 #: frappe/public/js/frappe/file_uploader/WebLink.vue:10
 msgid "Attach a web link"
-msgstr ""
+msgstr "Adjuntar un enlace web"
 
 #: frappe/website/doctype/website_slideshow/website_slideshow.js:8
 msgid "Attach files / urls and add in table."
@@ -4200,7 +4200,7 @@ msgstr "Etiqueta de tarjeta"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:233
 msgid "Card Links"
-msgstr ""
+msgstr "Enlaces de tarjetas"
 
 #. Label of a Table field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json
@@ -4859,7 +4859,7 @@ msgstr "Ancho de Columna"
 
 #: frappe/public/js/frappe/form/grid_row.js:614
 msgid "Column width cannot be zero."
-msgstr ""
+msgstr "El ancho de la columna no puede ser cero."
 
 #: frappe/core/doctype/data_import/data_import.js:385
 msgid "Column {0}"
@@ -5749,7 +5749,7 @@ msgstr ""
 
 #: frappe/public/js/frappe/file_uploader/ImageCropper.vue:34
 msgid "Crop"
-msgstr ""
+msgstr "Recortar"
 
 #: frappe/public/js/frappe/form/grid_row_form.js:42
 msgid "Ctrl + Down"
@@ -5899,7 +5899,7 @@ msgstr ""
 
 #: frappe/core/doctype/user_type/user_type.py:104
 msgid "Custom Document Types Limit Exceeded"
-msgstr ""
+msgstr "Límite de tipos de documentos personalizados superado"
 
 #: frappe/desk/desktop.py:489
 msgid "Custom Documents"
@@ -6112,7 +6112,7 @@ msgstr "Personalizar Formatos de Impresión"
 #. Description of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Customize properties, naming, fields and more for standard doctypes"
-msgstr ""
+msgstr "Personalice las propiedades, la nomenclatura, los campos y mucho más para los doctypes estándar"
 
 #: frappe/public/js/frappe/views/file/file_view.js:144
 msgid "Cut"
@@ -7514,7 +7514,7 @@ msgstr ""
 
 #: frappe/core/doctype/doctype/doctype.py:1162
 msgid "Document Links Row #{0}: Table Fieldname is mandatory for internal links"
-msgstr ""
+msgstr "Documento Links Row  #{0}: El nombre del campo de tabla es obligatorio para los enlaces internos"
 
 #. Label of a Dynamic Link field in DocType 'Reminder'
 #. Label of a Dynamic Link field in DocType 'DocShare'
@@ -7705,7 +7705,7 @@ msgstr ""
 #: frappe/core/doctype/submission_queue/submission_queue.py:163
 #: frappe/model/document.py:1748
 msgid "Document Unlocked"
-msgstr ""
+msgstr "Documento desbloqueado"
 
 #: frappe/public/js/frappe/list/list_view.js:1073
 msgid "Document has been cancelled"
@@ -7721,7 +7721,7 @@ msgstr "El documento está en estado de borrador"
 
 #: frappe/public/js/frappe/form/workflow.js:45
 msgid "Document is only editable by users with role"
-msgstr ""
+msgstr "Este documento es solo editable por usuarios de ese rol"
 
 #: frappe/core/doctype/communication/communication.js:182
 msgid "Document not Relinked"
@@ -8824,7 +8824,7 @@ msgstr "Cifrar Copias de Seguridad"
 
 #: frappe/utils/password.py:184
 msgid "Encryption key is in invalid format!"
-msgstr ""
+msgstr "¡La clave de encriptación está en un formato no válido!"
 
 #: frappe/utils/password.py:199
 msgid "Encryption key is invalid! Please check site_config.json"
@@ -9470,7 +9470,7 @@ msgstr "Transacciones fallidas"
 
 #: frappe/utils/synchronization.py:46
 msgid "Failed to aquire lock: {}. Lock may be held by another process."
-msgstr ""
+msgstr "No se pudo adquirir el bloqueo: {}. Es posible que otro proceso tenga el bloqueo."
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:359
 msgid "Failed to change password."
@@ -9511,7 +9511,7 @@ msgstr "Fallo al evaluar las condiciones: {}"
 
 #: frappe/types/exporter.py:192
 msgid "Failed to export python type hints"
-msgstr ""
+msgstr "No se pudieron exportar las sugerencias de Python"
 
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.py:249
 msgid "Failed to generate names from the series"
@@ -9519,7 +9519,7 @@ msgstr "Fallo al generar los Nombres de las Series"
 
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.js:75
 msgid "Failed to generate preview of series"
-msgstr ""
+msgstr "No se pudo generar la vista previa de la serie"
 
 #: frappe/handler.py:76
 msgid "Failed to get method for command {0} with {1}"
@@ -9552,7 +9552,7 @@ msgstr "No se pudo actualizar la configuración global"
 #. Label of a Table field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Failing Scheduled Jobs (last 7 days)"
-msgstr ""
+msgstr "Trabajos programados fallidos (últimos 7 días)"
 
 #: frappe/core/doctype/data_import/data_import.js:464
 msgid "Failure"
@@ -10393,7 +10393,7 @@ msgstr "Para la comparación, utilice >5, <10 o =324. Para rangos, utilice 5:10 
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:19
 msgid "For example if you cancel and amend INV004 it will become a new document INV004-1. This helps you to keep track of each amendment."
-msgstr ""
+msgstr "Por ejemplo, si cancela y modifica el documento INV004, éste se convertirá en un nuevo documento INV004-1. Esto le ayuda a realizar un seguimiento de cada modificación."
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:744
 msgid "For example: If you want to include the document ID, use {0}"
@@ -10778,7 +10778,7 @@ msgstr "Generar Contraseña Aleatoria"
 #: frappe/public/js/frappe/ui/toolbar/toolbar.js:162
 #: frappe/public/js/frappe/utils/utils.js:1772
 msgid "Generate Tracking URL"
-msgstr ""
+msgstr "Generar URL de seguimiento"
 
 #. Option for the 'Type' (Select) field in DocType 'DocField'
 #. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
@@ -11740,7 +11740,7 @@ msgstr "Identificador"
 
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:199
 msgid "ID (name)"
-msgstr ""
+msgstr "ID (nombre)"
 
 #. Description of the 'Field Name' (Data) field in DocType 'Property Setter'
 #: frappe/custom/doctype/property_setter/property_setter.json
@@ -13977,7 +13977,7 @@ msgstr "Nombre del Encabezado"
 
 #: frappe/printing/doctype/letter_head/letter_head.js:30
 msgid "Letter Head Scripts"
-msgstr ""
+msgstr "Scripts del membrete"
 
 #: frappe/printing/doctype/letter_head/letter_head.py:46
 msgid "Letter Head cannot be both disabled and default"
@@ -14351,7 +14351,7 @@ msgstr "Cargar más comunicaciones"
 
 #: frappe/public/js/frappe/file_uploader/TreeNode.vue:45
 msgid "Load more"
-msgstr ""
+msgstr "Cargar más"
 
 #: frappe/core/page/permission_manager/permission_manager.js:165
 #: frappe/public/js/frappe/form/controls/multicheck.js:13
