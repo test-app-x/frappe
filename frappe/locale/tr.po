@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-03 09:33+0000\n"
-"PO-Revision-Date: 2024-11-06 12:14\n"
+"PO-Revision-Date: 2024-11-08 12:34\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -1824,7 +1824,7 @@ msgstr "Başarısız Denemeden Sonra Giriş Yapmaya İzin Ver"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Allow Login using Mobile Number"
-msgstr "Mobil Numara ile Girişe İzin Ver"
+msgstr "Cep Telefonu ile Giriş"
 
 #. Label of the allow_login_using_user_name (Check) field in DocType 'System
 #. Settings'
@@ -7370,7 +7370,7 @@ msgstr "Standart E-posta Alt Bilgisini Kapat"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Disable System Update Notification"
-msgstr "Sistem Güncelleme Bildirimini Devre Dışı Bırak"
+msgstr "Güncelleme Bildirimini Devre Dışı Bırak"
 
 #. Label of the disable_user_pass_login (Check) field in DocType 'System
 #. Settings'
@@ -27974,7 +27974,7 @@ msgstr "IMAP Kullan"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Use Number Format from Currency"
-msgstr ""
+msgstr "Para Biriminden Sayı Biçimini Kullan"
 
 #. Label of the use_post (Check) field in DocType 'SMS Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
